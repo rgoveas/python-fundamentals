@@ -14,6 +14,12 @@
 	- Calculate how many seconds are in a year.
 '''
 
-print ("Hello World!")
+print("hello world")
+
+print("Hello World!")
+
+seconds_year = 365 * 24 * 60 * 60
+
+print(seconds_year)
 
 
