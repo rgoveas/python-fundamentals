@@ -7,3 +7,11 @@ Letter input: o
 Result: 4
 
 '''
+
+input_sentence = input("Please enter a sentence : ")
+
+letter_input  = input("Please enter a word :  ")
+
+first = input_sentence.index(letter_input)
+
+print("Index of first occurrence of the letter : ", first)

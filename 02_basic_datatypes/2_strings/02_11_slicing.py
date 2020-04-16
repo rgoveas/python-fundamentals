@@ -7,3 +7,12 @@ translated to pig latin by moving the first letter to the end, followed by "ay".
 For example: ryan -> yanray, caden -> adencay
 
 '''
+
+
+#Take in the user's name
+
+string = input("Please enter a name : ")
+
+#Print out name translated to pig latin
+
+print(string[1:],(string[0]),("ay"))

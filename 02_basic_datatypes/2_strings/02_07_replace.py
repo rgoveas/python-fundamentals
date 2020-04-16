@@ -8,3 +8,14 @@ Result: #ore python progra##ing please
 
 '''
 
+
+input_sentence = input("Please enter a sentence : ")
+
+symbol = input("Please enter the symbol : ")
+
+first = input_sentence[0]
+
+modified_str = input_sentence.replace(first, symbol)
+
+print("Modified String is : ", modified_str)
+
