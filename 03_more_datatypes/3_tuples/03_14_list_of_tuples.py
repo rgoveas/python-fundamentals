@@ -6,3 +6,12 @@ input = "hello world"
 result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 
 '''
+
+
+User_input = (input("Please enter a sentence:"))
+
+tuple_list  = tuple(User_input)
+
+print(tuple_list)
+                          
+                          
